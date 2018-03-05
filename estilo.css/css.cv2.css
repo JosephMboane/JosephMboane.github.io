@@ -1,0 +1,218 @@
+@charset UTF-8;
+
+
+
+  
+	div#divCima section#foto img{
+
+		width: 
+	}
+	div#divCima aside{
+
+		margin-top: -30px;
+	}
+
+	div#interface div#divCima{
+		
+		height: 443px;
+
+		
+	}
+	div#divCima section#foto{
+
+		width: auto;
+		float: left;
+	}
+	div#divCima aside#dados-pessoais{
+
+		width: auto;
+		float: right;
+
+	}
+
+    body{
+
+        background-color:#dddddd;
+        font-family: Arial,sans-serif;
+        color: rgba(0,0,0,.5);
+    }
+
+    div#interface {
+
+        width:700px;
+        background-color:#ffffff;
+        margin:-20px auto 10px auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+        padding: 10px 10px 10px 10px;
+
+    }
+
+    header#cabecalho{
+
+        
+        height: 950px;
+
+
+    }
+    
+    header#cabecalho img{
+
+        position: absolute;
+        left: 760px;
+        top: 150px;
+
+    	}    
+    	header#cabecalho h1{
+
+        font-family: Arial,sans-serif;
+        height: 150px;
+        color: #606060;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+	    }
+       
+        footer#rodape{
+
+            border-top: 1px solid #606060;
+
+        }
+        footer#rodape{
+
+        	clear: both;
+        }
+        footer#rodape p{
+
+            text-align:center; 
+        }
+        footer#rodape img{
+
+        	width: 25px;
+
+        }
+
+        table#tabela1{
+        	border-spacing: 0px;
+        	margin-left: auto;
+        	margin-right: auto;
+        	border:1px solid #606060;
+
+        }
+        div#div-tabela table#tabela1 td.ce{
+
+        	background-color: #bfe1ff;
+        
+        }
+        div#div-tabela table#tabela1 td.cd{
+
+        	background-color: #bfe1ff;
+
+        }
+        div#div-tabela table#tabela1 td.cdd{
+
+        	color:#ffffff; 
+        	background-color: #606060;
+        	vertical-align: center-text;
+        	font-weight: bold;
+        }
+
+        table#tabela2{
+
+        	border:1px solid #606060;
+        	border-spacing: 0px;
+        	margin-left: auto;
+        	margin-right: auto;
+        }
+        table#tabela3{
+
+        	border:1px solid #606060;
+        	border-spacing: 0px;
+        	margin-left: auto;
+        	margin-right: auto;
+        }
+
+        table#tabela1 td{
+
+        	border:1px solid #606060;
+        	padding: 10px;
+        }
+            table#tabela2 td{
+
+        	border:1px solid #606060;
+        	padding: 10px;
+        }
+            table#tabela3 td{
+
+        	border:1px solid #606060;
+        	padding: 17px;
+        }
+        div#div-tabela{
+
+
+        	clear: both;
+        }
+       
+        div#div-tabelas2 section#idiomas{
+
+		width: auto;
+		float: left;
+	}
+	div#div-tabelas2 table#tabela2 td.cddd{
+
+			color:#ffffff; 
+        	background-color: #606060;
+        	vertical-align: center-text;
+        	font-weight: bold;
+	}
+	div#div-tabelas2 table#tabela2 td.ceee{
+
+		
+		background-color: #cecece;
+	}
+		div#div-tabelas2 table#tabela2 td.cee{
+
+		
+		background-color: #bfe1ff;
+	}
+	div#div-tabelas2 table#tabela3 td.cd{
+		background-color: #cecece;
+		color: #ffffff;
+	}
+	div#div-tabelas2 table#tabela3 td.cdddd{
+
+		background-color: #bfe1ff;
+		vertical-align: center-text;
+        font-weight: bold;
+        color: #ffffff;
+	}
+	div#div-tabelas2 table#tabela3 td.cdd{
+		background-color: #606060;
+		color: #ffffff;
+	}
+
+	div#div-tabelas2 aside#contatos{
+
+		width: auto;
+		float: right;
+
+	}
+
+	div#div-tabelas2{
+
+		margin-bottom: 80px;
+	}
+	div#div-tabelas2 aside#contactos{
+
+		margin-top: 90px;
+		margin-right: -75px;
+		
+	}
+	div#div-tabelas2 section#idiomas{
+
+		margin-right: 0px;
+		margin-top: -20px;
+	}
+
+
+
+
+    
