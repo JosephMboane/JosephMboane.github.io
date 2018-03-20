@@ -1,103 +1,86 @@
 @charset UTF-8;
-
-
   
 	div#divCima section#foto img{
-
 		
-    border: 8px solid black;
+    border: 2px solid #c3c4ce;
     box-shadow: 1px 1px 4px white;
-    margin-top: 10px;
-
-
+    margin-top: 5px;
+    margin-left: -304px;
+    transition: all 1s ease-out;
+    border-radius: 50%;
 	}
+  div#divCima section#foto span{
+  opacity: 0;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
+  background: rgba(0,0,0,.3); 
+  font-size: 20pt;
+  line-height: 50px;
+  padding: 5px;
+  margin-left: 400px;
+}
+div#divCima section#foto:hover span{
+
+  opacity: 1;
+}
+
   div#divCima section#foto img{
-
-    width: 32%;
-    height: 30%;
-
+    width: 900px;
+    height: 335px;
+   } 
+     div#divCima section#foto img:hover{
+      cursor: pointer;
+      transform: translateY(50px);
+      
    } 
 	div#divCima aside{ 
 
-		margin-top: -30px;
+		margin-top: -40px;
 	}
+  #layout{
 
-    div#divCima aside img{ 
-
-       width: 20%;
-       height: 30%;
-      padding-left: -250px;
-      
-    float: 0px;
-
+    background-color: black;
   }
 
 
 	div#interface div#divCima{
 		
-		height: 443px;
-    background-image: url("lua cheia.jpg");
-    
-
+		height: 440px;
+     background-image: url("lua cheia.jpg"); 
+     padding-top: 20px;
 		
 	}
 	div#divCima section#foto{
 
 		width: auto;
 		float: left;
+    clear: both;
 	}
-	div#divCima aside#dados-pessoais{
 
-		width: auto;
-		float: top;
-    padding-top: -10px;
-
-	}
 
     body{
 
-        background-image:url("Untitled.png");
+        background-image:url("Untitled.png") ;
 
         background-color:#dddddd;
         font-family: Arial,sans-serif;
         color: rgba(0,0,0,.5);
+        padding-top: 20px;
     }
 
     div#interface {
 
-        width:940px;
+        width:950px;
         background-color:#ffffff;
         margin:-20px auto 10px auto;
         box-shadow: 0px 0px 10px rgba(0,0,0,.5);
         padding: 10px 10px 10px 10px;
+        margin-left: 390px;
+        margin-top: -20px;
 
     }
-
-    header#cabecalho{
-
-        
-        height: 950px;
-
-
-    }
-    
-    header#cabecalho img{
-
-        position: absolute;
-        left: 760px;
-        top: 150px;
-
-    	}    
-    	header#cabecalho h1{
-
-        font-family: Arial,sans-serif;
-        height: 150px;
-        color: #606060;
-        font-size: 30px;
-        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-	    }
        
-        footer#rodape{
+   footer#rodape{
 
             border-top: 1px solid #606060;
 
@@ -112,7 +95,7 @@
         }
         footer#rodape img{
 
-        	width: 25px;
+        	<!-- width: 25px; -->
 
         }
 
@@ -414,7 +397,7 @@ ul#album li:hover span{
   opacity: 1;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   #interface {
     background-color: black;
   }

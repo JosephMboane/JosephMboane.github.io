@@ -1,0 +1,66 @@
+@charset UTF-8;
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+selectio{
+
+  clear: both;
+}
+
+section{
+
+  margin: 50px auto;
+  width: 1025px;
+  height: 150px;
+  margin-left: 320px;
+}
+.rede{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 20px;
+  transition: all 1s ease-out;
+  border-radius: 50%;
+
+}
+.rede:hover{
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+.rede#facebook{
+  background-color: #2372a3;
+
+}
+.rede#twitter{
+  background-color: #0084b4;
+  
+}
+.rede#instagram{
+  background-color: #dd4b39;
+  
+}
+.icone{
+  margin: auto;
+  padding: 20px;
+  width: 60px;
+}
+#musica {
+
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  color: white;
+  margin-top: -80px;
+  margin-left: 280px;
+  background: url("radio.png") no-repeat;
+}
+audio#som {
+  display: block;
+  position: relative;
+  left: 20px;
+  top:130px;
+  width: 300px;
+}
