@@ -16,7 +16,7 @@ section{
   width: 100px;
   height: 100px;
   float: left;
-  margin-left: 20px;
+  margin-left: 50px;
   transition: all 1s ease-out;
   border-radius: 50%;
 
@@ -58,4 +58,45 @@ audio#som {
   left: 20px;
   top:130px;
   width: 300px;
+}
+
+/*Formatacao do Menu*/
+
+.btn-menu{
+  width: 56px;
+  height: 56px;
+  float: left;
+  text-align: center;
+  color: #fff;
+  border-radius: 56px;
+  cursor: pointer;
+  background: linear-gradient(to right,#2372a3);
+  margin-top: -80px;
+  margin-left: 10%;
+
+}
+.menu {
+  display: none;
+  width: 16%;
+  height: 45%;
+  position: fixed;
+  background-color: rgba(0,0,0,.9);
+
+
+}
+.menu ul {
+  width: 100%;
+  float: left;
+}
+.menu li{
+  padding: 1.5%;
+}
+.menu li a {
+  font-size: 2em;
+  color: #fff;
+  padding: 1.5% 3%;
+
+}
+.menu li a:hover {
+  border:1px solid #2372a3;
 }
